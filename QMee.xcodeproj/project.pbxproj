@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88C74BD51F374CDB00CE56A7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C74BD41F374CDB00CE56A7 /* GameViewController.swift */; };
 		88E70E861F369DE8006D5CF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E70E851F369DE8006D5CF6 /* AppDelegate.swift */; };
 		88E70E881F369DE8006D5CF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E70E871F369DE8006D5CF6 /* ViewController.swift */; };
 		88E70E8B1F369DE8006D5CF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E70E891F369DE8006D5CF6 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88C74BD41F374CDB00CE56A7 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		88E70E821F369DE8006D5CF6 /* QMee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E70E851F369DE8006D5CF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88E70E871F369DE8006D5CF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				88E70E851F369DE8006D5CF6 /* AppDelegate.swift */,
 				88E70E871F369DE8006D5CF6 /* ViewController.swift */,
+				88C74BD41F374CDB00CE56A7 /* GameViewController.swift */,
 				88E70E971F36AB32006D5CF6 /* QuestionBank.swift */,
 				88E70E891F369DE8006D5CF6 /* Main.storyboard */,
 				88E70E8C1F369DE8006D5CF6 /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C74BD51F374CDB00CE56A7 /* GameViewController.swift in Sources */,
 				88E70E881F369DE8006D5CF6 /* ViewController.swift in Sources */,
 				88E70E861F369DE8006D5CF6 /* AppDelegate.swift in Sources */,
 				88E70E981F36AB32006D5CF6 /* QuestionBank.swift in Sources */,
@@ -308,6 +312,7 @@
 				88E70E961F369DE8006D5CF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
