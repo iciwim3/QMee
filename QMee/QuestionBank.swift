@@ -16,9 +16,7 @@ class QuestionBank {
     var currentQuestionIndex: Int = 0
     
     func getNextQuestion() -> String {
-        for question in 0...questions.count {
-            currentQuestionIndex += 1
-        }
+        currentQuestionIndex += 1
         return questions[currentQuestionIndex]
     }
     
