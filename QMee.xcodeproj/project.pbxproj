@@ -12,6 +12,7 @@
 		88E70E8B1F369DE8006D5CF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E70E891F369DE8006D5CF6 /* Main.storyboard */; };
 		88E70E8D1F369DE8006D5CF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88E70E8C1F369DE8006D5CF6 /* Assets.xcassets */; };
 		88E70E901F369DE8006D5CF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E70E8E1F369DE8006D5CF6 /* LaunchScreen.storyboard */; };
+		88E70E981F36AB32006D5CF6 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E70E971F36AB32006D5CF6 /* QuestionBank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		88E70E8C1F369DE8006D5CF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88E70E8F1F369DE8006D5CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88E70E911F369DE8006D5CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88E70E971F36AB32006D5CF6 /* QuestionBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				88E70E851F369DE8006D5CF6 /* AppDelegate.swift */,
 				88E70E871F369DE8006D5CF6 /* ViewController.swift */,
+				88E70E971F36AB32006D5CF6 /* QuestionBank.swift */,
 				88E70E891F369DE8006D5CF6 /* Main.storyboard */,
 				88E70E8C1F369DE8006D5CF6 /* Assets.xcassets */,
 				88E70E8E1F369DE8006D5CF6 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				88E70E881F369DE8006D5CF6 /* ViewController.swift in Sources */,
 				88E70E861F369DE8006D5CF6 /* AppDelegate.swift in Sources */,
+				88E70E981F36AB32006D5CF6 /* QuestionBank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
