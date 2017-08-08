@@ -66,6 +66,11 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="pointsLabel" destination="OIe-fb-RQ0" id="iTj-ix-5SQ"/>
+                        <outlet property="questiomImageView" destination="hXx-wV-ME4" id="due-As-1q3"/>
+                        <outlet property="questionLabel" destination="xJ8-gW-mI2" id="DS3-Uq-k4q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
