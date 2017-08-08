@@ -43,11 +43,17 @@
                                 <rect key="frame" x="100" y="513" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="icon_true"/>
+                                <connections>
+                                    <action selector="trueButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UeY-3S-uIX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GbM-tB-fW4">
                                 <rect key="frame" x="228" y="513" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="icon_false"/>
+                                <connections>
+                                    <action selector="falseButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dtz-LT-YY2"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="True" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eib-yE-fcv">
                                 <rect key="frame" x="111" y="590" width="42" height="21"/>

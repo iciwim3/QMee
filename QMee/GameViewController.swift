@@ -27,4 +27,12 @@ class GameViewController: UIViewController {
         questionLabel.text = "Tap the true button to start the new game!"
     }
     
+    @IBAction func trueButtonTapped(_ sender: Any) {
+        print("true button tapped")
+    }
+    
+    @IBAction func falseButtonTapped(_ sender: Any) {
+        print("false button tapped")
+    }
+    
 }
