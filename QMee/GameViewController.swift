@@ -12,9 +12,11 @@ class GameViewController: UIViewController {
     
     @IBOutlet weak var pointsLabel: UILabel!
     
-    @IBOutlet weak var questiomImageView: UIImageView!
+    @IBOutlet weak var questionImageView: UIImageView!
     
     @IBOutlet weak var questionLabel: UILabel!
+    
+    var game: QMeeGame = QMeeGame()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,13 +24,27 @@ class GameViewController: UIViewController {
         pointsLabel.text = "00"
         
         let starterImage = UIImage(named: "2")
-        questiomImageView.image = starterImage
+        questionImageView.image = starterImage
         
         questionLabel.text = "Tap the true button to start the new game!"
     }
     
     @IBAction func trueButtonTapped(_ sender: Any) {
-        print("true button tapped")
+        
+        game.points += 1
+        
+        let nextQuestion = game.getNextQuestion()
+        
+        let questionImage = game.getQuestionImageName()
+        
+        let image = UIImage(named: questionImage)
+        
+        questionImageView.image = image
+        
+        questionLabel.text = nextQuestion
+        
+        pointsLabel.text = String(game.points)
+        
     }
     
     @IBAction func falseButtonTapped(_ sender: Any) {

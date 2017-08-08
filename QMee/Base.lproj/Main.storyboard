@@ -28,7 +28,7 @@
                                 <color key="textColor" red="0.6470588235294118" green="0.24313725490196078" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="hXx-wV-ME4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="hXx-wV-ME4">
                                 <rect key="frame" x="54" y="143" width="268" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -74,7 +74,7 @@
                     </view>
                     <connections>
                         <outlet property="pointsLabel" destination="OIe-fb-RQ0" id="iTj-ix-5SQ"/>
-                        <outlet property="questiomImageView" destination="hXx-wV-ME4" id="due-As-1q3"/>
+                        <outlet property="questionImageView" destination="hXx-wV-ME4" id="abC-nJ-BgF"/>
                         <outlet property="questionLabel" destination="xJ8-gW-mI2" id="DS3-Uq-k4q"/>
                     </connections>
                 </viewController>
