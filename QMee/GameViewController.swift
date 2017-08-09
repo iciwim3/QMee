@@ -16,39 +16,51 @@ class GameViewController: UIViewController {
     
     @IBOutlet weak var questionLabel: UILabel!
     
+    @IBOutlet weak var falseButton: UIButton!
+    
     var game: QMeeGame = QMeeGame()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        pointsLabel.text = "00"
+        pointsLabel.text = "--"
         
         let starterImage = UIImage(named: "2")
         questionImageView.image = starterImage
         
         questionLabel.text = "Tap the true button to start the new game!"
+        
+        // Disable the false button
+        falseButton.isEnabled = false
     }
     
     @IBAction func trueButtonTapped(_ sender: Any) {
+        if pointsLabel.text == "--" {
+            // Game first starts
+            game.points = 0
+            falseButton.isEnabled = true
+        } else {
+            game.points += 1
+        }
         
-        game.points += 1
-        
-        let nextQuestion = game.getNextQuestion()
-        
-        let questionImage = game.getQuestionImageName()
-        
-        let image = UIImage(named: questionImage)
-        
-        questionImageView.image = image
-        
-        questionLabel.text = nextQuestion
-        
-        pointsLabel.text = String(game.points)
-        
+        updateGame()
     }
     
     @IBAction func falseButtonTapped(_ sender: Any) {
-        print("false button tapped")
+        game.points -= 1
+        updateGame()
+    }
+    
+    func updateGame() {
+        
+        let nextQuestion = game.getNextQuestion()
+        let questionImage = game.getQuestionImageName()
+        let image = UIImage(named: questionImage)
+        
+        questionImageView.image = image
+        questionLabel.text = nextQuestion
+        pointsLabel.text = String(game.points)
+        
     }
     
 }
