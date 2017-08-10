@@ -10,7 +10,7 @@ import Foundation
 
 class QMeeGame {
     var questions: [String] = [
-        "Philadelphia, Pa. is the place with a bell near middle of the city.",
+        "Philadelphia, Pa. is the place with a bell near the middle of the city.",
         "Apollo 11 is the name of the spaceship that first landed on the moon.",
         "What does 'umbros' mean in Latin? Translate it into Sentinelese.",
         "Niepce's estate was the first photo printed from a camera in the world.",
