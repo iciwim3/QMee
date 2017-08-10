@@ -10,12 +10,12 @@ import Foundation
 
 class QMeeGame {
     var questions: [String] = [
-        "What’s the name of this city in the United States with a bell in the near middle of the city?",
-        "What is the name of the spaceship that first landed on the moon?",
+        "Philadelphia, Pa. is the place with a bell near middle of the city.",
+        "Apollo 11 is the name of the spaceship that first landed on the moon.",
         "What does 'umbros' mean in Latin? Translate it into Sentinelese.",
-        "What’s the first photo printed from a camera in the world?",
-        "When was the first email ever sent in the world?…",
-        "and what was that email about?"]
+        "Niepce's estate was the first photo printed from a camera in the world.",
+        "1971 was when the first email was ever sent in the world…",
+        "The first email was just a test email..."]
     
     var questionImageNames: [String] = ["1", "3", "2", "4", "5", "6"]
 
